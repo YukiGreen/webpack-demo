@@ -1,0 +1,15 @@
+{
+  "name": "01-getting-started",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "zce <w@zce.me> (https://zce.me)",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "webpack": "^5.27.1",
+    "webpack-cli": "^4.5.0"
+  }
+}
