@@ -2,7 +2,7 @@
   "name": "08-url-loader",
   "version": "0.1.0",
   "main": "index.js",
-  "author": "zce <w@zce.me> (https://zce.me)",
+  "author": " ",
   "license": "MIT",
   "scripts": {
     "build": "webpack"

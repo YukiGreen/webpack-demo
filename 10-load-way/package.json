@@ -2,7 +2,7 @@
   "name": "10-load-way",
   "version": "0.1.0",
   "main": "index.js",
-  "author": "zce <w@zce.me> (https://zce.me)",
+  "author": " ",
   "license": "MIT",
   "scripts": {
     "build": "webpack"
