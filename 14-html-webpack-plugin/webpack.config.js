@@ -34,13 +34,13 @@ module.exports = {
     new CleanWebpackPlugin(),
     // 用于生成 index.html
     new HtmlWebpackPlugin({
-      title: 'Webpack Plugin Sample',
+      title: 'Webpack Plugin Sample', // 生成 html的title
       meta: {
-        viewport: 'width=device-width'
+        viewport: 'width=device-width' // 修改html的一些属性
       },
-      template: './src/index.html'
+      template: './src/index.html' // 指定所需要使用到的模板
     }),
-    // 用于生成 about.html
+    // 用于生成 about.html， 需要生成多个html文件，只需要声明多个htmlWebpackPlugin插件实例即可
     new HtmlWebpackPlugin({
       filename: 'about.html'
     })
